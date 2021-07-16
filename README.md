@@ -1,10 +1,9 @@
 # Exoplanet Discovery
-Creation d’un WebApp d’information sur les caractéristiques et l’identification des Exoplanètes habitables.
+Le but de cet outil est de prédire en fonction des caractéristiques receuillies sur de nouvelles planètes, la possibilité ou non d'y trouvé de la vie
 
-## Sommaire
+## Composition du Git
 
 * [Origine du projet](#origine-du-projet)
-* [Screenshots](#interface)
 * [Technologies](#technologies)
 * [Bases de Données](#bases-de-données)
 * [Statut](#statut)
@@ -12,18 +11,13 @@ Creation d’un WebApp d’information sur les caractéristiques et l’identifi
 
 ## Origine du projet
 
-Exoplanet_Discovery dans le cadre d’un **Hackathon** de 30 heures, organisé par la __Wild Code School__
-
-L’objectif de fournir un support de présentation autour d’un thème portant sur l’espace. L’équipe a décide de se concentrer sur les *caractéristiques des exoplanètes* habitables afin d’entrainer un algorithme de *Machine Learning* pour déterminer si une nouvelle exoplanète est habitable.
+Lors d’un **Sprint** de 30 heures, organisé par la __Wild Code School__ nous avons été amené à présenter une projet sur le thème de l'espace.
+Nous avons décidé de se concentrer sur les *caractéristiques des exoplanètes* habitables afin d’entrainer un algorithme de *Machine Learning* pour déterminer si une nouvelle exoplanète est habitable.
 
 La **WebApp** crée se divise en 3 sections : 
-- Une présentation des techniques d’identification  des exopnalètes
-- Une études des critères permettant de déterminer si une exoplanète est habitable
-- Un algoritmo de ML (XGboost) qui détermine si les nouvelles exoplanètes découvertes sont habitables ou non.
-
-## Interface
-
-Ces analyses ont été mise à disposition au travers d’une __WebApp__ créée au travers de la plateforme __Streamlit__.
+- Une présentation des techniques d’identification  des exoplanètes
+- Une études des caractéristiques permettant de déterminer si une exoplanète est habitable
+- Un algoritme de ML (XGboost) qui détermine si les nouvelles exoplanètes découvertes sont habitables ou non.
 
 ### Adresse du site :
 
@@ -31,10 +25,6 @@ Le site est hébergé directement sur les serveurs mis à disposition par *Strea
 
 https://share.streamlit.io/mickaelkohler/exoplanet_discovery/main/Exoplanet_discovery.py
 
-### Captures d’écran
-
-![screenshot1](./Ressources/screenshot1.png)
-![screenshot2](./Ressources/screenshot2.png)
 
 ## Technologies 
 
@@ -45,7 +35,7 @@ Utilisations des librairies suivantes :
  - Scikit-learn
  - Plotly
  - Streamlit
- - XGboost
+
 
 ## Bases de données 
 
